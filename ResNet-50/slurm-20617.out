@@ -1,0 +1,23 @@
+/home/soumini.mohandas/food_3_rn50_main.py:118: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /home/conda/feedstock_root/build_artifacts/libtorch_1706726118919/work/torch/csrc/utils/tensor_new.cpp:261.)
+  val_outputs = torch.tensor(val_outputs)
+Epoch [1/10], Training Loss: 1.7565, Training Accuracy: 0.6018, Validation Loss: 1.0600, Validation Accuracy: 0.7261
+Saving the model with the best validation accuracy
+Epoch [2/10], Training Loss: 0.9239, Training Accuracy: 0.7383, Validation Loss: 0.9517, Validation Accuracy: 0.7465
+Saving the model with the best validation accuracy
+Epoch [3/10], Training Loss: 0.8007, Training Accuracy: 0.7642, Validation Loss: 0.9231, Validation Accuracy: 0.7552
+Saving the model with the best validation accuracy
+Epoch [4/10], Training Loss: 0.7962, Training Accuracy: 0.8367, Validation Loss: 0.6883, Validation Accuracy: 0.8091
+Saving the model with the best validation accuracy
+Epoch [5/10], Training Loss: 0.9995, Training Accuracy: 0.8579, Validation Loss: 0.6560, Validation Accuracy: 0.8204
+Saving the model with the best validation accuracy
+Epoch [6/10], Training Loss: 0.8436, Training Accuracy: 0.8694, Validation Loss: 0.6537, Validation Accuracy: 0.8226
+Saving the model with the best validation accuracy
+Epoch [7/10], Training Loss: 0.3784, Training Accuracy: 0.8839, Validation Loss: 0.6401, Validation Accuracy: 0.8267
+Saving the model with the best validation accuracy
+Epoch [8/10], Training Loss: 1.1714, Training Accuracy: 0.8842, Validation Loss: 0.6335, Validation Accuracy: 0.8275
+Saving the model with the best validation accuracy
+Epoch [9/10], Training Loss: 0.6372, Training Accuracy: 0.8857, Validation Loss: 0.6437, Validation Accuracy: 0.8259
+Epoch [10/10], Training Loss: 0.3659, Training Accuracy: 0.8871, Validation Loss: 0.6299, Validation Accuracy: 0.8297
+Saving the model with the best validation accuracy
+Training Accuracy using the best model: 0.9080
+Validation Accuracy using the best model: 0.8279

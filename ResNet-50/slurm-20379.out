@@ -1,0 +1,30 @@
+/home/soumini.mohandas/food_11_rn50_main.py:118: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /home/conda/feedstock_root/build_artifacts/libtorch_1706726118919/work/torch/csrc/utils/tensor_new.cpp:261.)
+  val_outputs = torch.tensor(val_outputs)
+Epoch [1/15], Training Loss: 3.9292, Training Accuracy: 0.0488, Validation Loss: 4.0222, Validation Accuracy: 0.0901
+Saving the model with the best validation accuracy
+Epoch [2/15], Training Loss: 3.5131, Training Accuracy: 0.1211, Validation Loss: 3.7560, Validation Accuracy: 0.1341
+Saving the model with the best validation accuracy
+Epoch [3/15], Training Loss: 3.3286, Training Accuracy: 0.1684, Validation Loss: 3.5281, Validation Accuracy: 0.1733
+Saving the model with the best validation accuracy
+Epoch [4/15], Training Loss: 3.3812, Training Accuracy: 0.2264, Validation Loss: 3.1694, Validation Accuracy: 0.2424
+Saving the model with the best validation accuracy
+Epoch [5/15], Training Loss: 3.4440, Training Accuracy: 0.2425, Validation Loss: 3.0772, Validation Accuracy: 0.2608
+Saving the model with the best validation accuracy
+Epoch [6/15], Training Loss: 3.6477, Training Accuracy: 0.2595, Validation Loss: 3.0456, Validation Accuracy: 0.2646
+Saving the model with the best validation accuracy
+Epoch [7/15], Training Loss: 2.6454, Training Accuracy: 0.2746, Validation Loss: 2.9704, Validation Accuracy: 0.2824
+Saving the model with the best validation accuracy
+Epoch [8/15], Training Loss: 3.5131, Training Accuracy: 0.2801, Validation Loss: 2.9601, Validation Accuracy: 0.2816
+Epoch [9/15], Training Loss: 2.6289, Training Accuracy: 0.2843, Validation Loss: 2.9343, Validation Accuracy: 0.2850
+Saving the model with the best validation accuracy
+Epoch [10/15], Training Loss: 3.2696, Training Accuracy: 0.2864, Validation Loss: 2.9356, Validation Accuracy: 0.2840
+Epoch [11/15], Training Loss: 3.1878, Training Accuracy: 0.2860, Validation Loss: 2.9494, Validation Accuracy: 0.2861
+Saving the model with the best validation accuracy
+Epoch [12/15], Training Loss: 2.7520, Training Accuracy: 0.2864, Validation Loss: 2.9435, Validation Accuracy: 0.2859
+Epoch [13/15], Training Loss: 3.0582, Training Accuracy: 0.2870, Validation Loss: 2.9355, Validation Accuracy: 0.2877
+Saving the model with the best validation accuracy
+Epoch [14/15], Training Loss: 3.0375, Training Accuracy: 0.2874, Validation Loss: 2.9413, Validation Accuracy: 0.2869
+Epoch [15/15], Training Loss: 3.4903, Training Accuracy: 0.2871, Validation Loss: 2.9263, Validation Accuracy: 0.2929
+Saving the model with the best validation accuracy
+Training Accuracy using the best model: 0.3001
+Validation Accuracy using the best model: 0.2893
