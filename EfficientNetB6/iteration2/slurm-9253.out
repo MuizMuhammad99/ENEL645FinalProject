@@ -1,0 +1,25 @@
+Loaded pretrained weights for efficientnet-b6
+Epoch [1/15], Training Loss: 1.6524, Training Accuracy: 0.5988, Validation Loss: 0.8088, Validation Accuracy: 0.7824
+Saving the model with the best validation loss
+food_main.py:140: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:230.)
+  val_outputs = torch.tensor(val_outputs)
+Epoch [2/15], Training Loss: 0.8445, Training Accuracy: 0.7761, Validation Loss: 0.6838, Validation Accuracy: 0.8154
+Saving the model with the best validation loss
+Epoch [3/15], Training Loss: 0.6583, Training Accuracy: 0.8223, Validation Loss: 0.6548, Validation Accuracy: 0.8301
+Saving the model with the best validation loss
+Epoch [4/15], Training Loss: 0.4438, Training Accuracy: 0.8772, Validation Loss: 0.5736, Validation Accuracy: 0.8467
+Saving the model with the best validation loss
+Epoch [5/15], Training Loss: 0.3883, Training Accuracy: 0.8922, Validation Loss: 0.5784, Validation Accuracy: 0.8519
+Epoch [6/15], Training Loss: 0.3508, Training Accuracy: 0.9013, Validation Loss: 0.5645, Validation Accuracy: 0.8547
+Saving the model with the best validation loss
+Epoch [7/15], Training Loss: 0.3189, Training Accuracy: 0.9107, Validation Loss: 0.5599, Validation Accuracy: 0.8558
+Saving the model with the best validation loss
+Epoch [8/15], Training Loss: 0.3195, Training Accuracy: 0.9104, Validation Loss: 0.5608, Validation Accuracy: 0.8549
+Epoch [9/15], Training Loss: 0.3147, Training Accuracy: 0.9116, Validation Loss: 0.5523, Validation Accuracy: 0.8596
+Saving the model with the best validation loss
+Epoch [10/15], Training Loss: 0.3088, Training Accuracy: 0.9124, Validation Loss: 0.5670, Validation Accuracy: 0.8568
+Epoch [11/15], Training Loss: 0.3060, Training Accuracy: 0.9145, Validation Loss: 0.5633, Validation Accuracy: 0.8576
+Epoch [12/15], Training Loss: 0.3112, Training Accuracy: 0.9114, Validation Loss: 0.5597, Validation Accuracy: 0.8562
+Epoch [13/15], Training Loss: 0.3091, Training Accuracy: 0.9134, Validation Loss: 0.5550, Validation Accuracy: 0.8612
+Epoch [14/15], Training Loss: 0.3089, Training Accuracy: 0.9129, Validation Loss: 0.5561, Validation Accuracy: 0.8590
+slurmstepd: error: *** JOB 9253 ON t1 CANCELLED AT 2024-03-23T18:02:56 DUE TO TIME LIMIT ***

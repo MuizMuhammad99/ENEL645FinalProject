@@ -1,0 +1,26 @@
+Loaded pretrained weights for efficientnet-b6
+Epoch [1/15], Training Loss: 1.2910, Training Accuracy: 0.5401, Validation Loss: 0.9972, Validation Accuracy: 0.7349
+Saving the model with the best validation accuracy
+food_main.py:117: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:230.)
+  val_outputs = torch.tensor(val_outputs)
+Epoch [2/15], Training Loss: 1.0255, Training Accuracy: 0.7496, Validation Loss: 0.8210, Validation Accuracy: 0.7826
+Saving the model with the best validation accuracy
+Epoch [3/15], Training Loss: 0.5969, Training Accuracy: 0.8021, Validation Loss: 0.7607, Validation Accuracy: 0.7960
+Saving the model with the best validation accuracy
+Epoch [4/15], Training Loss: 0.4422, Training Accuracy: 0.8592, Validation Loss: 0.6885, Validation Accuracy: 0.8176
+Saving the model with the best validation accuracy
+Epoch [5/15], Training Loss: 0.0918, Training Accuracy: 0.8720, Validation Loss: 0.6652, Validation Accuracy: 0.8299
+Saving the model with the best validation accuracy
+Epoch [6/15], Training Loss: 0.2758, Training Accuracy: 0.8803, Validation Loss: 0.6719, Validation Accuracy: 0.8232
+Epoch [7/15], Training Loss: 0.2993, Training Accuracy: 0.8880, Validation Loss: 0.6703, Validation Accuracy: 0.8212
+Epoch [8/15], Training Loss: 0.6901, Training Accuracy: 0.8891, Validation Loss: 0.6686, Validation Accuracy: 0.8261
+Epoch [9/15], Training Loss: 0.6380, Training Accuracy: 0.8918, Validation Loss: 0.6581, Validation Accuracy: 0.8279
+Epoch [10/15], Training Loss: 0.6488, Training Accuracy: 0.8908, Validation Loss: 0.6775, Validation Accuracy: 0.8244
+Epoch [11/15], Training Loss: 0.7497, Training Accuracy: 0.8928, Validation Loss: 0.6545, Validation Accuracy: 0.8265
+Epoch [12/15], Training Loss: 0.3613, Training Accuracy: 0.8912, Validation Loss: 0.6690, Validation Accuracy: 0.8261
+Epoch [13/15], Training Loss: 0.3931, Training Accuracy: 0.8930, Validation Loss: 0.6660, Validation Accuracy: 0.8255
+Epoch [14/15], Training Loss: 0.3663, Training Accuracy: 0.8913, Validation Loss: 0.6756, Validation Accuracy: 0.8240
+Epoch [15/15], Training Loss: 0.4368, Training Accuracy: 0.8914, Validation Loss: 0.6779, Validation Accuracy: 0.8251
+Loaded pretrained weights for efficientnet-b6
+Training Accuracy using the best model: 0.9241
+Validation Accuracy using the best model: 0.8226
