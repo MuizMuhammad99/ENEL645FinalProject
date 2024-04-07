@@ -1,0 +1,21 @@
+/home/soumini.mohandas/food_4_rn101_main.py:118: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /home/conda/feedstock_root/build_artifacts/libtorch_1706726118919/work/torch/csrc/utils/tensor_new.cpp:261.)
+  val_outputs = torch.tensor(val_outputs)
+Epoch [1/10], Training Loss: 1.1203, Training Accuracy: 0.6399, Validation Loss: 0.8974, Validation Accuracy: 0.7560
+Saving the model with the best validation accuracy
+Epoch [2/10], Training Loss: 1.0865, Training Accuracy: 0.7800, Validation Loss: 0.7984, Validation Accuracy: 0.7842
+Saving the model with the best validation accuracy
+Epoch [3/10], Training Loss: 0.8775, Training Accuracy: 0.8188, Validation Loss: 0.7571, Validation Accuracy: 0.7905
+Saving the model with the best validation accuracy
+Epoch [4/10], Training Loss: 0.3857, Training Accuracy: 0.8833, Validation Loss: 0.6233, Validation Accuracy: 0.8349
+Saving the model with the best validation accuracy
+Epoch [5/10], Training Loss: 0.6904, Training Accuracy: 0.9018, Validation Loss: 0.6192, Validation Accuracy: 0.8376
+Saving the model with the best validation accuracy
+Epoch [6/10], Training Loss: 0.0500, Training Accuracy: 0.9120, Validation Loss: 0.6152, Validation Accuracy: 0.8400
+Saving the model with the best validation accuracy
+Epoch [7/10], Training Loss: 0.3208, Training Accuracy: 0.9220, Validation Loss: 0.6120, Validation Accuracy: 0.8388
+Epoch [8/10], Training Loss: 0.1607, Training Accuracy: 0.9232, Validation Loss: 0.6064, Validation Accuracy: 0.8376
+Epoch [9/10], Training Loss: 0.0925, Training Accuracy: 0.9254, Validation Loss: 0.6183, Validation Accuracy: 0.8364
+Epoch [10/10], Training Loss: 0.4100, Training Accuracy: 0.9258, Validation Loss: 0.6188, Validation Accuracy: 0.8406
+Saving the model with the best validation accuracy
+Training Accuracy using the best model: 0.9414
+Validation Accuracy using the best model: 0.8358
