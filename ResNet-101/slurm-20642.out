@@ -1,0 +1,20 @@
+/home/soumini.mohandas/food_3_rn101_main.py:118: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /home/conda/feedstock_root/build_artifacts/libtorch_1706726118919/work/torch/csrc/utils/tensor_new.cpp:261.)
+  val_outputs = torch.tensor(val_outputs)
+Epoch [1/10], Training Loss: 1.0382, Training Accuracy: 0.6353, Validation Loss: 0.9517, Validation Accuracy: 0.7455
+Saving the model with the best validation accuracy
+Epoch [2/10], Training Loss: 1.0260, Training Accuracy: 0.7555, Validation Loss: 0.9214, Validation Accuracy: 0.7576
+Saving the model with the best validation accuracy
+Epoch [3/10], Training Loss: 0.9520, Training Accuracy: 0.7766, Validation Loss: 0.9049, Validation Accuracy: 0.7566
+Epoch [4/10], Training Loss: 0.3376, Training Accuracy: 0.8553, Validation Loss: 0.6317, Validation Accuracy: 0.8313
+Saving the model with the best validation accuracy
+Epoch [5/10], Training Loss: 0.5986, Training Accuracy: 0.8800, Validation Loss: 0.6117, Validation Accuracy: 0.8327
+Saving the model with the best validation accuracy
+Epoch [6/10], Training Loss: 0.0852, Training Accuracy: 0.8924, Validation Loss: 0.6119, Validation Accuracy: 0.8352
+Saving the model with the best validation accuracy
+Epoch [7/10], Training Loss: 0.2905, Training Accuracy: 0.9087, Validation Loss: 0.5911, Validation Accuracy: 0.8436
+Saving the model with the best validation accuracy
+Epoch [8/10], Training Loss: 0.2108, Training Accuracy: 0.9107, Validation Loss: 0.5880, Validation Accuracy: 0.8416
+Epoch [9/10], Training Loss: 0.1291, Training Accuracy: 0.9132, Validation Loss: 0.5941, Validation Accuracy: 0.8370
+Epoch [10/10], Training Loss: 0.7781, Training Accuracy: 0.9152, Validation Loss: 0.5940, Validation Accuracy: 0.8388
+Training Accuracy using the best model: 0.9285
+Validation Accuracy using the best model: 0.8418
