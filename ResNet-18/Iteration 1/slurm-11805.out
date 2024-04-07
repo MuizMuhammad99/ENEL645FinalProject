@@ -1,0 +1,46 @@
+Train set: 95950
+Val set: 5050
+Class names: ['apple_pie', 'baby_back_ribs', 'baklava', 'beef_carpaccio', 'beef_tartare', 'beet_salad', 'beignets', 'bibimbap', 'bread_pudding', 'breakfast_burrito', 'bruschetta', 'caesar_salad', 'cannoli', 'caprese_salad', 'carrot_cake', 'ceviche', 'cheese_plate', 'cheesecake', 'chicken_curry', 'chicken_quesadilla', 'chicken_wings', 'chocolate_cake', 'chocolate_mousse', 'churros', 'clam_chowder', 'club_sandwich', 'crab_cakes', 'creme_brulee', 'croque_madame', 'cup_cakes', 'deviled_eggs', 'donuts', 'dumplings', 'edamame', 'eggs_benedict', 'escargots', 'falafel', 'filet_mignon', 'fish_and_chips', 'foie_gras', 'french_fries', 'french_onion_soup', 'french_toast', 'fried_calamari', 'fried_rice', 'frozen_yogurt', 'garlic_bread', 'gnocchi', 'greek_salad', 'grilled_cheese_sandwich', 'grilled_salmon', 'guacamole', 'gyoza', 'hamburger', 'hot_and_sour_soup', 'hot_dog', 'huevos_rancheros', 'hummus', 'ice_cream', 'lasagna', 'lobster_bisque', 'lobster_roll_sandwich', 'macaroni_and_cheese', 'macarons', 'miso_soup', 'mussels', 'nachos', 'omelette', 'onion_rings', 'oysters', 'pad_thai', 'paella', 'pancakes', 'panna_cotta', 'peking_duck', 'pho', 'pizza', 'pork_chop', 'poutine', 'prime_rib', 'pulled_pork_sandwich', 'ramen', 'ravioli', 'red_velvet_cake', 'risotto', 'samosa', 'sashimi', 'scallops', 'seaweed_salad', 'shrimp_and_grits', 'spaghetti_bolognese', 'spaghetti_carbonara', 'spring_rolls', 'steak', 'strawberry_shortcake', 'sushi', 'tacos', 'takoyaki', 'tiramisu', 'tuna_tartare', 'waffles']
+torch.Size([32, 3, 224, 224])
+torch.Size([32])
+/home/aemen.mohsin/software/miniconda3/envs/pytorch/lib/python3.7/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+1,  train loss: 2.823, validation loss: 2.085
+Saving model
+2,  train loss: 2.315, validation loss: 1.948
+Saving model
+3,  train loss: 2.228, validation loss: 1.883
+Saving model
+4,  train loss: 2.176, validation loss: 1.854
+Saving model
+5,  train loss: 2.145, validation loss: 1.821
+Saving model
+6,  train loss: 2.126, validation loss: 1.814
+Saving model
+7,  train loss: 2.108, validation loss: 1.787
+Saving model
+8,  train loss: 2.098, validation loss: 1.777
+Saving model
+9,  train loss: 2.084, validation loss: 1.767
+Saving model
+10,  train loss: 2.066, validation loss: 1.762
+Saving model
+11,  train loss: 2.064, validation loss: 1.757
+Saving model
+12,  train loss: 2.060, validation loss: 1.750
+Saving model
+13,  train loss: 2.056, validation loss: 1.743
+Saving model
+14,  train loss: 2.044, validation loss: 1.742
+Saving model
+15,  train loss: 2.046, validation loss: 1.738
+Saving model
+Finished Training
+Traceback (most recent call last):
+  File "project_ResNet18_34.py", line 233, in <module>
+    net.load_state_dict(torch.load('bestfoodpath_resnet18_0.0001lr.pth'))
+  File "/home/aemen.mohsin/software/miniconda3/envs/pytorch/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1672, in load_state_dict
+    self.__class__.__name__, "\n\t".join(error_msgs)))
+RuntimeError: Error(s) in loading state_dict for FoodClassifier:
+	size mismatch for classifier.weight: copying a param with shape torch.Size([101, 1000]) from checkpoint, the shape in current model is torch.Size([4, 1000]).
+	size mismatch for classifier.bias: copying a param with shape torch.Size([101]) from checkpoint, the shape in current model is torch.Size([4]).

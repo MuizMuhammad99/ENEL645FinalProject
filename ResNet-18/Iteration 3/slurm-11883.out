@@ -1,0 +1,141 @@
+Train set: 95950
+Val set: 5050
+Class names: ['apple_pie', 'baby_back_ribs', 'baklava', 'beef_carpaccio', 'beef_tartare', 'beet_salad', 'beignets', 'bibimbap', 'bread_pudding', 'breakfast_burrito', 'bruschetta', 'caesar_salad', 'cannoli', 'caprese_salad', 'carrot_cake', 'ceviche', 'cheese_plate', 'cheesecake', 'chicken_curry', 'chicken_quesadilla', 'chicken_wings', 'chocolate_cake', 'chocolate_mousse', 'churros', 'clam_chowder', 'club_sandwich', 'crab_cakes', 'creme_brulee', 'croque_madame', 'cup_cakes', 'deviled_eggs', 'donuts', 'dumplings', 'edamame', 'eggs_benedict', 'escargots', 'falafel', 'filet_mignon', 'fish_and_chips', 'foie_gras', 'french_fries', 'french_onion_soup', 'french_toast', 'fried_calamari', 'fried_rice', 'frozen_yogurt', 'garlic_bread', 'gnocchi', 'greek_salad', 'grilled_cheese_sandwich', 'grilled_salmon', 'guacamole', 'gyoza', 'hamburger', 'hot_and_sour_soup', 'hot_dog', 'huevos_rancheros', 'hummus', 'ice_cream', 'lasagna', 'lobster_bisque', 'lobster_roll_sandwich', 'macaroni_and_cheese', 'macarons', 'miso_soup', 'mussels', 'nachos', 'omelette', 'onion_rings', 'oysters', 'pad_thai', 'paella', 'pancakes', 'panna_cotta', 'peking_duck', 'pho', 'pizza', 'pork_chop', 'poutine', 'prime_rib', 'pulled_pork_sandwich', 'ramen', 'ravioli', 'red_velvet_cake', 'risotto', 'samosa', 'sashimi', 'scallops', 'seaweed_salad', 'shrimp_and_grits', 'spaghetti_bolognese', 'spaghetti_carbonara', 'spring_rolls', 'steak', 'strawberry_shortcake', 'sushi', 'tacos', 'takoyaki', 'tiramisu', 'tuna_tartare', 'waffles']
+torch.Size([32, 3, 224, 224])
+torch.Size([32])
+/home/aemen.mohsin/software/miniconda3/envs/pytorch/lib/python3.7/site-packages/torchvision/models/_utils.py:209: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  f"The parameter '{pretrained_param}' is deprecated since 0.13 and may be removed in the future, "
+/home/aemen.mohsin/software/miniconda3/envs/pytorch/lib/python3.7/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+1,  train loss: 3.128, validation loss: 2.640
+Saving model
+2,  train loss: 3.001, validation loss: 2.630
+Saving model
+3,  train loss: 2.995, validation loss: 2.527
+Saving model
+4,  train loss: 2.977, validation loss: 2.560
+5,  train loss: 2.956, validation loss: 2.535
+6,  train loss: 2.964, validation loss: 2.580
+7,  train loss: 2.209, validation loss: 1.798
+Saving model
+8,  train loss: 2.081, validation loss: 1.754
+Saving model
+9,  train loss: 2.046, validation loss: 1.742
+Saving model
+10,  train loss: 2.036, validation loss: 1.724
+Saving model
+11,  train loss: 2.028, validation loss: 1.724
+12,  train loss: 2.020, validation loss: 1.705
+Saving model
+13,  train loss: 2.012, validation loss: 1.729
+14,  train loss: 2.013, validation loss: 1.704
+Saving model
+15,  train loss: 2.009, validation loss: 1.718
+Finished Training
+
+
+Accuracy on the test images: 51.092235539343406 %
+Accuracy on the test images: 56.57425742574257 %
+
+
+Accuracy of apple_pie: 18.00%
+Accuracy of baby_back_ribs: 48.00%
+Accuracy of baklava: 52.00%
+Accuracy of beef_carpaccio: 68.00%
+Accuracy of beef_tartare: 46.00%
+Accuracy of beet_salad: 40.00%
+Accuracy of beignets: 78.00%
+Accuracy of bibimbap: 74.00%
+Accuracy of bread_pudding: 32.00%
+Accuracy of breakfast_burrito: 62.00%
+Accuracy of bruschetta: 44.00%
+Accuracy of caesar_salad: 78.00%
+Accuracy of cannoli: 64.00%
+Accuracy of caprese_salad: 54.00%
+Accuracy of carrot_cake: 52.00%
+Accuracy of ceviche: 44.00%
+Accuracy of cheese_plate: 68.00%
+Accuracy of cheesecake: 40.00%
+Accuracy of chicken_curry: 58.00%
+Accuracy of chicken_quesadilla: 40.00%
+Accuracy of chicken_wings: 70.00%
+Accuracy of chocolate_cake: 28.00%
+Accuracy of chocolate_mousse: 34.00%
+Accuracy of churros: 70.00%
+Accuracy of clam_chowder: 60.00%
+Accuracy of club_sandwich: 60.00%
+Accuracy of crab_cakes: 42.00%
+Accuracy of creme_brulee: 56.00%
+Accuracy of croque_madame: 72.00%
+Accuracy of cup_cakes: 70.00%
+Accuracy of deviled_eggs: 62.00%
+Accuracy of donuts: 58.00%
+Accuracy of dumplings: 70.00%
+Accuracy of edamame: 94.00%
+Accuracy of eggs_benedict: 76.00%
+Accuracy of escargots: 60.00%
+Accuracy of falafel: 42.00%
+Accuracy of filet_mignon: 30.00%
+Accuracy of fish_and_chips: 52.00%
+Accuracy of foie_gras: 16.00%
+Accuracy of french_fries: 68.00%
+Accuracy of french_onion_soup: 48.00%
+Accuracy of french_toast: 46.00%
+Accuracy of fried_calamari: 62.00%
+Accuracy of fried_rice: 58.00%
+Accuracy of frozen_yogurt: 84.00%
+Accuracy of garlic_bread: 54.00%
+Accuracy of gnocchi: 32.00%
+Accuracy of greek_salad: 54.00%
+Accuracy of grilled_cheese_sandwich: 44.00%
+Accuracy of grilled_salmon: 34.00%
+Accuracy of guacamole: 90.00%
+Accuracy of gyoza: 52.00%
+Accuracy of hamburger: 42.00%
+Accuracy of hot_and_sour_soup: 92.00%
+Accuracy of hot_dog: 74.00%
+Accuracy of huevos_rancheros: 36.00%
+Accuracy of hummus: 32.00%
+Accuracy of ice_cream: 56.00%
+Accuracy of lasagna: 50.00%
+Accuracy of lobster_bisque: 64.00%
+Accuracy of lobster_roll_sandwich: 74.00%
+Accuracy of macaroni_and_cheese: 64.00%
+Accuracy of macarons: 88.00%
+Accuracy of miso_soup: 84.00%
+Accuracy of mussels: 76.00%
+Accuracy of nachos: 54.00%
+Accuracy of omelette: 44.00%
+Accuracy of onion_rings: 86.00%
+Accuracy of oysters: 80.00%
+Accuracy of pad_thai: 86.00%
+Accuracy of paella: 68.00%
+Accuracy of pancakes: 44.00%
+Accuracy of panna_cotta: 48.00%
+Accuracy of peking_duck: 60.00%
+Accuracy of pho: 78.00%
+Accuracy of pizza: 78.00%
+Accuracy of pork_chop: 38.00%
+Accuracy of poutine: 64.00%
+Accuracy of prime_rib: 52.00%
+Accuracy of pulled_pork_sandwich: 46.00%
+Accuracy of ramen: 70.00%
+Accuracy of ravioli: 12.00%
+Accuracy of red_velvet_cake: 74.00%
+Accuracy of risotto: 50.00%
+Accuracy of samosa: 44.00%
+Accuracy of sashimi: 66.00%
+Accuracy of scallops: 26.00%
+Accuracy of seaweed_salad: 78.00%
+Accuracy of shrimp_and_grits: 48.00%
+Accuracy of spaghetti_bolognese: 76.00%
+Accuracy of spaghetti_carbonara: 82.00%
+Accuracy of spring_rolls: 72.00%
+Accuracy of steak: 8.00%
+Accuracy of strawberry_shortcake: 48.00%
+Accuracy of sushi: 56.00%
+Accuracy of tacos: 26.00%
+Accuracy of takoyaki: 56.00%
+Accuracy of tiramisu: 54.00%
+Accuracy of tuna_tartare: 34.00%
+Accuracy of waffles: 68.00%
