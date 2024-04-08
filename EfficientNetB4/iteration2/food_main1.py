@@ -32,9 +32,9 @@ def get_dataset_stats(data_loader):
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Define NN
-class GarbageClassifier(nn.Module):
+class FoodClassifier(nn.Module):
     def __init__(self, num_classes):
-        super(GarbageClassifier, self).__init__()
+        super(FoodClassifier, self).__init__()
         self.efficientnet = EfficientNet.from_pretrained('efficientnet-b4', num_classes=num_classes).to(device)
         self.dropout = nn.Dropout(0.5)
 
@@ -72,7 +72,7 @@ validation_loader = DataLoader(validation_dataset, batch_size=batch_size, shuffl
 
 # Initialization
 num_classes = len(train_dataset.classes)
-model = GarbageClassifier(num_classes)
+model = FoodClassifier(num_classes)
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(model.parameters(), lr=0.0001, weight_decay=1e-5)
 
@@ -155,7 +155,7 @@ for epoch in range(num_epochs):
         best_val_loss = val_loss
 
 # Loading the best model after training
-best_model = GarbageClassifier(num_classes)
+best_model = FoodClassifier(num_classes)
 best_model.load_state_dict(torch.load(best_model_path))
 best_model.to(device)
 
